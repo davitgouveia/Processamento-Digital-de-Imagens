@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # lê uma imagem
-img = cv2.imread('imagem 5.jpg')
+img = cv2.imread('muro_nois_tres.jpeg')
 
 # define uma matriz de cor zero (preto) de mesmo tamanho da imagem original
 mascara = np.zeros(img.shape[:2], dtype = "uint8")
@@ -31,7 +31,7 @@ diferenca = h - v
 v = []
 
 # Range de cor mais clara e mais escura, foi analisado no paint
-for i in range(25,80,1):
+for i in range(0,255,1):
     v.append(i)
 
 

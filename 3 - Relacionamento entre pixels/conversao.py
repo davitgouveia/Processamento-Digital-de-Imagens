@@ -1,7 +1,7 @@
 import cv2
 
 # leitura da imagem a qual vamos calcular o histotgrama
-img = cv2.imread('imagem 5.jpg')
+img = cv2.imread('muro_nois_tres.jpeg')
 
 b = img[:,:,0]
 g = img[:,:,1]
